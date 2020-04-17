@@ -357,20 +357,20 @@ h1
   .logomain{
     margin-top: 150px;
     top: 20%;
-    left: 90%;/*49*/
+    left: 80%;/*49*/
     transform: translate(-50% , -50%);
     background: url('Images/logo.png') no-repeat center center ;
     background-size: 100%;
     position: absolute;
-    height: 170%;
-    width: 120%;
+    height: 200%;
+    width: 150%;
 
   }
 	
 .logomain:hover{
   top:20%;
   left:80%;
-  background-size: 132%;
+  background-size: 100%;
 }
 
   .intro {
