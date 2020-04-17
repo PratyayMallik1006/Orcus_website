@@ -357,7 +357,7 @@ h1
   .logomain{
     margin-top: 150px;
     top: 20%;
-    left: 85%;/*49*/
+    left: 90%;/*49*/
     transform: translate(-50% , -50%);
     background: url('Images/logo.png') no-repeat center center ;
     background-size: 100%;
@@ -369,7 +369,7 @@ h1
 	
 .logomain:hover{
   top:20%;
-  left:85%;
+  left:90%;
   background-size: 100%;
 }
 
