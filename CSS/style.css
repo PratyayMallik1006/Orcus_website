@@ -357,13 +357,13 @@ h1
   .logomain{
     margin-top: 150px;
     top: 20%;
-    left: 80%;/*49*/
+    left: 90%;/*49*/
     transform: translate(-50% , -50%);
     background: url('Images/logo.png') no-repeat center center ;
-    background-size: 130%;
+    background-size: 100%;
     position: absolute;
-    height: 150%;
-    width: 100%;
+    height: 170%;
+    width: 120%;
 
   }
 	
