@@ -124,7 +124,7 @@ body,html {
   top: 75%;/*20*/
   left: 58%;/*49*/
   transform: translate(-50% , -50%);
-  background: url('Images/LOGO.png') no-repeat center center ;
+  background: url('Images/logo.png') no-repeat center center ;
   background-size: 105%;
   position: absolute;
   height: 150%;
@@ -360,12 +360,18 @@ h1
     left: 49%;/*49*/
     transform: translate(-50% , -50%);
     background: url('Images/logo.png') no-repeat center center ;
-    background-size: 100%;
+    background-size: 120%;
     position: absolute;
     height: 150%;
     width: 100%;
 
   }
+	
+.logomain:hover{
+  top:20%;
+  left:49%;
+  background-size: 122%;
+}
 
   .intro {
     height: 100vh;
