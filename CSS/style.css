@@ -1,6 +1,6 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css');
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
-
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
  *, *::after, *::before {
     /* transition: .33s ease all; */  /*this is messsing with the cards animation the cards animation is also lagging by .33 sec*/
   scroll-behavior: smooth;
@@ -12,6 +12,8 @@
     color: none;
     background: none;
 }
+
+
 
 /*CSS for flip card*/
 /*.container_flip {
@@ -107,7 +109,8 @@
 }*/
 
 body,html {
-  font-family: 'Quicksand', sans-serif;
+
+  font-family: 'Work Sans', sans-serif;
   line-height: 1;
   margin: 0;
   width: 100%;
@@ -119,15 +122,16 @@ body,html {
     color: #fff;
 
 }
+
 .logomain{
   top: 75%;/*20*/
-  left: 58%;/*49*/
+  left: 58%;/*58*/
   transform: translate(-50% , -50%);
   background: url('Images/LOGO.png') no-repeat center center ;
-  background-size: 105%;
+  background-size: 105%;/*105*/
   position: absolute;
-  height: 150%;
-  width: 100%;
+  height: 150%;/*150*/
+  width: 100%;/*100*/
 }
 
 .logomain:hover{
@@ -139,7 +143,7 @@ body,html {
 main {
   position: relative;
   z-index: 1;
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
   box-shadow: 0 0 50px #000;
   transition: .9s;
@@ -150,6 +154,7 @@ main {
 }
 
 .intro {
+  
   height: 100vh;
   width: 100%;
   display: table;
@@ -167,7 +172,7 @@ h1
 {
   text-align: center;
   color: #f00;
-    font-size: 36px;
+  font-size: 38px;
 
 
 }
@@ -273,7 +278,7 @@ h1
   overflow: auto;
   transform: translateZ(0);
   transform: translateX(100%);
-  transition: transform .5s cubic-bezier(.07,.23,.34,1);
+  transition: transform .5s cubic-bezier(.07,.23,.34,1)
 }
 
 .nav-open .nav-container {
@@ -281,7 +286,7 @@ h1
 }
 
 .nav-container h2 {
-  font-size: 45px;
+  font-size: 47px;
   font-weight: bold;
   /*text-transform: uppercase;*/
   color: #AAAAAA;
@@ -297,7 +302,7 @@ h1
 .nav a {
   display: block;
   padding: .4em 0;
-  font-size: 25px;
+  font-size: 27px;
   font-weight:lighter;
 
   color: white;
@@ -354,16 +359,22 @@ h1
 }
 @media only screen and (max-width: 600px) {
   .logomain{
-    margin-top: 100px;
-    top: 20%
-    left: 49%;/*49*/
+    margin-top: 150px;
+    top: 20%;
+    left: 100%;/*49*/
     transform: translate(-50% , -50%);
     background: url('Images/logo.png') no-repeat center center ;
-    background-size: 150%;
+    background-size: 100%;
     position: absolute;
-    height: 150%;
-    width: 100%;
+    height: 225%;
+    width: 175%;
 
+  }
+
+  .logomain:hover{
+    top:20%;
+    left:100%;
+    background-size: 100%;
   }
 
   .intro {
@@ -398,14 +409,27 @@ ul {
 
 
 .footer-social-icons {
-    width:auto;
+    width:50%;
     display:block;
-    margin: 0 auto;
+    margin: 0;
     background: #000000;
     color: #fff;
     height: 320px;
-text-align: center;
+    text-align: center;
 }
+
+@media only screen and (max-width: 720px){
+  .footer-social-icons {
+      width:100%;
+      display:block;
+      margin: 0;
+      background: #000000;
+      color: #fff;
+      height: 320px;
+      text-align: center;
+  }
+}
+
 .social-icon {
     color: #ff0000;
 }
@@ -519,12 +543,12 @@ ul.social-icons {
     border-radius: 1px;
   }
         /*CSS for Cards*/
-hr{
+/*hr{
     /*border: 2px solid rgb(3, 168, 245);*/
-    border: 2px solid rgb(0, 0, 0);
+    /*border: 2px solid green;
 	  border-radius: 0.08px;
     width:70%;
-}
+}*/
 .wrapper
 {
   align-items: center;
@@ -539,6 +563,7 @@ hr{
 	max-width: 90%;
 	background: rgba(255, 255, 255, 0);
   border-radius: 15px;
+  border: solid red 2px;
   box-sizing:content-box;
   flex-direction: row;
   align-items: center;
@@ -573,7 +598,7 @@ hr{
 	margin-top: -25px;
 }
 .card_datails  h1 {
-	font-size: 35px;
+	font-size: 37px;
 }
 .card_right img {
 	height: 390px;
@@ -584,7 +609,7 @@ hr{
 }
 
 .disc {
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: 500;
 	line-height: 24px;
 	text-align:justify;
@@ -685,7 +710,7 @@ hr{
 
 	label span{
 		position: absolute;
-		font-size: 100pt;
+		font-size: 102px;
 		top: 50%;
 	 	transform: translateY(-50%);
 	}
@@ -698,7 +723,7 @@ hr{
   .content-pro{
 
 
-    font-size: 170%;
+    font-size: 172%;
     line-height: 100%;
     text-align:justify;
 
@@ -785,7 +810,7 @@ hr{
     top: 300%;
   }
   .content-pro{
-    font-size: 100%;
+    font-size: 102%;
     line-height: 20px;
     text-align:justify;
     padding:5%;
