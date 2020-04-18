@@ -168,7 +168,7 @@ h1
 {
   text-align: center;
   color: #f00;
-    font-size: 36px;
+    font-size: 38px;
 
 
 }
@@ -282,7 +282,7 @@ h1
 }
 
 .nav-container h2 {
-  font-size: 45px;
+  font-size: 47px;
   font-weight: bold;
   /*text-transform: uppercase;*/
   color: #AAAAAA;
@@ -298,7 +298,7 @@ h1
 .nav a {
   display: block;
   padding: .4em 0;
-  font-size: 25px;
+  font-size: 27px;
   font-weight:lighter;
 
   color: white;
@@ -593,7 +593,7 @@ hr{
 	margin-top: -25px;
 }
 .card_datails  h1 {
-	font-size: 35px;
+	font-size: 37px;
 }
 .card_right img {
 	height: 390px;
@@ -604,7 +604,7 @@ hr{
 }
 
 .disc {
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: 500;
 	line-height: 24px;
 	text-align:justify;
@@ -705,7 +705,7 @@ hr{
 
 	label span{
 		position: absolute;
-		font-size: 100pt;
+		font-size: 102px;
 		top: 50%;
 	 	transform: translateY(-50%);
 	}
@@ -718,7 +718,7 @@ hr{
   .content-pro{
 
 
-    font-size: 170%;
+    font-size: 172%;
     line-height: 100%;
     text-align:justify;
 
@@ -805,7 +805,7 @@ hr{
     top: 300%;
   }
   .content-pro{
-    font-size: 100%;
+    font-size: 102%;
     line-height: 20px;
     text-align:justify;
     padding:5%;
